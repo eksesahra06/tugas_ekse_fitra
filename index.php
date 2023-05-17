@@ -23,15 +23,15 @@
         <table width="100%" border="0">
     <tbody><tr>
         <td valign="top">
-        <table border="0" width="100%" style="padding-left: 2px; padding-right: 13px;">
+        <table>
           <tbody>
             <tr>
-              <td width="25%" valign="top" class="text">Nama</td>
-                <td width="2%">:</td>
-                <td style="color: #e9a7f9; font-weight:bold"><input type="text"></td>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text"></td>
             </tr>
-          <tr>
-              <td class="text">Kelas</td>
+           <tr>
+                <td>Kelas</td>
                 <td>:</td>
                 <td><select name="" id="">
                 <option value="">11 RPL 1</option>
@@ -39,8 +39,8 @@
                 </select>
                 </td>
             </tr>
-          <tr>
-              <td class="text">Alamat</td>
+            <tr>
+                <td>Alamat</td>
                 <td>:</td>
                 <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
             </tr>
@@ -53,6 +53,5 @@
     </div>
   </div>
 </div>
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
